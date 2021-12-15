@@ -1,0 +1,47 @@
+name: just-dev-it-backend
+recipe: lamp
+config:
+  php: '8.0'
+  composer_version: 2-latest
+  database: mariadb:10.4
+  webroot: ./web
+services:
+  # myservice:
+  #   type: php
+  #   build_as_root:
+  #     - apt-get update -y
+  #     - apt-get install libmagickwand-dev --no-install-recommends
+  #     - apt-get install imagemagick
+  #     - pecl install imagick
+  #     - docker-php-ext-enable imagick
+  smtp:
+    type: mailhog
+    portforward: true
+    hogfrom:
+      - appserver
+  node:
+    type: node:10
+tooling:
+  npm:
+    service: node
+  npx:
+    service: node
+  build:
+    description: Compile frontend assets
+    service: node
+    cmd:
+      - npm run prod
+  watch:
+    description: Compile frontend assets on file change
+    service: node
+    cmd:
+      - npm run dev
+  craft:
+    description: Run craft commands
+    service: appserver
+    cmd:
+      - /app/craft
+  composer:
+    cmd:
+      - /usr/local/bin/composer
+
