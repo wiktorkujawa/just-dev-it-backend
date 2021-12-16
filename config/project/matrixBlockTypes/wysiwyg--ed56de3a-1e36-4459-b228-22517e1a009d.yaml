@@ -1,0 +1,124 @@
+field: 2b50515c-e0e8-476c-b492-be690f79f4aa # Custom Components
+fieldLayouts:
+  289566f5-1c43-4927-904d-12e2edd91ce6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f8edb1b9-f322-411a-9852-befe51785d6d # ID Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e0cb04d8-feb1-4796-9718-35b761d9a358 # Copy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8051305e-784e-4ff5-86a7-72dc5525c7ed # Container Max Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  8051305e-784e-4ff5-86a7-72dc5525c7ed: # Container Max Width
+    columnSuffix: ltteqqjs
+    contentColumnType: string
+    fieldGroup: null
+    handle: containerMaxWidth
+    instructions: ''
+    name: 'Container Max Width'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - lg
+            -
+              - value
+              - lg
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - md
+            -
+              - value
+              - md
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e0cb04d8-feb1-4796-9718-35b761d9a358: # Copy
+    columnSuffix: hrinfvud
+    contentColumnType: text
+    fieldGroup: null
+    handle: copy
+    instructions: ''
+    name: Copy
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  f8edb1b9-f322-411a-9852-befe51785d6d: # ID Name
+    columnSuffix: jvlfrrrk
+    contentColumnType: text
+    fieldGroup: null
+    handle: idName
+    instructions: ''
+    name: 'ID Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: wysiwyg
+name: WYSIWYG
+sortOrder: 1

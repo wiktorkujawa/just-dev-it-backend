@@ -1,14 +1,32 @@
-dateModified: 1639614755
+dateModified: 1639664004
 email:
   fromEmail: wiktorkujawa1993@gmail.com
   fromName: 'Just Dev It Backend'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2b50515c-e0e8-476c-b492-be690f79f4aa: 'Custom Components' # Custom Components
+    3eb888ac-ee4b-4cbb-a2f7-d6dc5f2d5f35: 'Project Grid' # Project Grid
+    06dd5d56-4715-4a58-bbe3-e14e9f0a872d: Default # Default
     39d13e7c-8b57-495c-8196-e8c926949462: 'Just Dev It Backend' # Just Dev It Backend
     58a489b8-f569-425d-ac3e-4aedbc4bc028: Common # Common
+    78f503f9-2f11-4e1d-ab4a-5f410691e28b: Button # Button
+    79e31cc7-24b8-4709-95e0-6e4ee20ff916: Heading # Heading
+    96a1edd5-ac72-4a60-9df3-6663ee894634: Block # Block
     211de2ac-e52f-46dd-91e3-14a166b4addb: 'Just Dev It Backend' # Just Dev It Backend
+    553a947d-20b8-4e0d-bb0c-f5927ef1adcb: Media # Media
+    921a50dd-e864-421e-9040-abeab5f11e28: Projects # Projects
+    1551e627-e199-4bf3-8240-08277ea39c50: Project # Project
+    8051305e-784e-4ff5-86a7-72dc5525c7ed: 'Container Max Width' # Container Max Width
+    68326759-efdc-4531-993e-106b70b19480: 'Project Description' # Project Description
+    77971046-4d60-430d-a717-9170b6d04ab3: 'Media Link' # Media Link
     a58441f0-7b55-4e99-b4eb-884d9569b32c: Images # Images
+    be3e72bb-38ca-4f58-bd17-f2275ed86445: Homepage # Homepage
+    c1760756-8587-4691-84da-ff9231459601: Components # Components
+    e0cb04d8-feb1-4796-9718-35b761d9a358: Copy # Copy
+    ea6cc2b9-0fba-4314-ac10-4f4b7e537ac6: Homepage # Homepage
+    ed56de3a-1e36-4459-b228-22517e1a009d: WYSIWYG # WYSIWYG
+    f8edb1b9-f322-411a-9852-befe51785d6d: 'ID Name' # ID Name
 plugins:
   aws-s3:
     edition: standard
