@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Just Dev It Backend'
+primary: true
+siteGroup: 39d13e7c-8b57-495c-8196-e8c926949462 # Just Dev It Backend
+sortOrder: 1

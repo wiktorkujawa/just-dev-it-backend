@@ -1,0 +1,53 @@
+dateModified: 1639614755
+email:
+  fromEmail: wiktorkujawa1993@gmail.com
+  fromName: 'Just Dev It Backend'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    39d13e7c-8b57-495c-8196-e8c926949462: 'Just Dev It Backend' # Just Dev It Backend
+    58a489b8-f569-425d-ac3e-4aedbc4bc028: Common # Common
+    211de2ac-e52f-46dd-91e3-14a166b4addb: 'Just Dev It Backend' # Just Dev It Backend
+    a58441f0-7b55-4e99-b4eb-884d9569b32c: Images # Images
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  db-snapshot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      accessKey: $S3_KEY_ID
+      bucket: $S3_REGION
+      compress: '1'
+      endpoint: $CLOUDFRONT_URL
+      filename: lamp.sql
+      path: db_snapshots
+      region: $S3_REGION
+      secretKey: $S3_SECRET
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: pro
+  live: true
+  name: 'Just Dev It Backend'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
