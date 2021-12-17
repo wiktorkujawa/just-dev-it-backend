@@ -67,7 +67,6 @@ return [
     // Dev environment settings
     'dev' => [
         // Increase file upload limit
-        'maxUploadFileSize' => '100MB',
         'devMode' => true,
         'disallowRobots' => true,
         'enableGraphqlCaching' => false,
