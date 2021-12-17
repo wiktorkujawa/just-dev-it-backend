@@ -1,4 +1,4 @@
-dateModified: 1639664004
+dateModified: 1639665737
 email:
   fromEmail: wiktorkujawa1993@gmail.com
   fromName: 'Just Dev It Backend'
@@ -21,6 +21,7 @@ meta:
     68326759-efdc-4531-993e-106b70b19480: 'Project Description' # Project Description
     77971046-4d60-430d-a717-9170b6d04ab3: 'Media Link' # Media Link
     a58441f0-7b55-4e99-b4eb-884d9569b32c: Images # Images
+    b0267bf7-57eb-4bd4-bd7f-931b6895610a: 'Public Schema' # Public Schema
     be3e72bb-38ca-4f58-bd17-f2275ed86445: Homepage # Homepage
     c1760756-8587-4691-84da-ff9231459601: Components # Components
     e0cb04d8-feb1-4796-9718-35b761d9a358: Copy # Copy
@@ -32,19 +33,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: '1.2'
-  db-snapshot:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      accessKey: $S3_KEY_ID
-      bucket: $S3_REGION
-      compress: '1'
-      endpoint: $CLOUDFRONT_URL
-      filename: lamp.sql
-      path: db_snapshots
-      region: $S3_REGION
-      secretKey: $S3_SECRET
   embeddedassets:
     edition: standard
     enabled: true
