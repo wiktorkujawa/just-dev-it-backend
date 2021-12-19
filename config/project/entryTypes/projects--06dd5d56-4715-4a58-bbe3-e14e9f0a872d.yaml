@@ -37,9 +37,9 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: default
+handle: projects
 hasTitleField: true
-name: Default
+name: Projects
 section: 921a50dd-e864-421e-9040-abeab5f11e28 # Projects
 sortOrder: 1
 titleFormat: null

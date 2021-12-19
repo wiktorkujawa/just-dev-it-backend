@@ -32,7 +32,7 @@ handle: images
 hasUrls: true
 name: Images
 settings:
-  addSubfolderToRootUrl: ''
+  addSubfolderToRootUrl: '1'
   autoFocalPoint: ''
   bucket: $S3_BUCKET
   bucketSelectionMode: manual

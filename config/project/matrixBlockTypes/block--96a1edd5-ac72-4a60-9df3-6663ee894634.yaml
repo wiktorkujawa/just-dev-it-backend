@@ -194,7 +194,7 @@ fields:
       allowUploads: true
       allowedKinds: null
       defaultUploadLocationSource: 'volume:a58441f0-7b55-4e99-b4eb-884d9569b32c' # Images
-      defaultUploadLocationSubpath: images
+      defaultUploadLocationSubpath: projects
       limit: ''
       localizeRelations: false
       previewMode: full
