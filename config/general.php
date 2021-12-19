@@ -38,7 +38,7 @@ return [
         'allowAdminChanges' => false,
 
         // allow uploading gifs
-        // 'imageDriver' => 'imagick',
+        'imageDriver' => 'imagick',
 
         // Whether Dev Mode should be enabled (see https://craftcms.com/guides/what-dev-mode-does)
         'devMode' => false,
