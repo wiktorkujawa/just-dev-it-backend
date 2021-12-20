@@ -5,3 +5,4 @@ scope:
   - 'entrytypes.ea6cc2b9-0fba-4314-ac10-4f4b7e537ac6:read' # Homepage
   - 'sections.921a50dd-e864-421e-9040-abeab5f11e28:read' # Projects
   - 'entrytypes.06dd5d56-4715-4a58-bbe3-e14e9f0a872d:read' # Projects
+  - 'volumes.a58441f0-7b55-4e99-b4eb-884d9569b32c:read' # Images
