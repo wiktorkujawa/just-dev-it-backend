@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: experience
+name: Experience
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  211de2ac-e52f-46dd-91e3-14a166b4addb: # Just Dev It Backend
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: experience
+type: single

@@ -1,15 +1,17 @@
-dateModified: 1640134176
+dateModified: 1640134951
 email:
   fromEmail: wiktorkujawa1993@gmail.com
   fromName: 'Just Dev It Backend'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0fd2e707-ade0-426b-b39f-23714c71fa9f: Experience # Experience
     2b50515c-e0e8-476c-b492-be690f79f4aa: 'Custom Components' # Custom Components
     3eb888ac-ee4b-4cbb-a2f7-d6dc5f2d5f35: 'Project Grid' # Project Grid
     06dd5d56-4715-4a58-bbe3-e14e9f0a872d: Projects # Projects
     7d5897b2-31be-4bd7-971e-ea51ce238763: Heading # Heading
     8d9a46d2-7f5e-4725-a2dc-e5f5af099310: Project # Project
+    27b45831-850d-47a6-a601-84337168cefd: Experience # Experience
     39d13e7c-8b57-495c-8196-e8c926949462: 'Just Dev It Backend' # Just Dev It Backend
     58a489b8-f569-425d-ac3e-4aedbc4bc028: Common # Common
     78f503f9-2f11-4e1d-ab4a-5f410691e28b: Button # Button
@@ -25,9 +27,11 @@ meta:
     77971046-4d60-430d-a717-9170b6d04ab3: 'Media Link' # Media Link
     a58441f0-7b55-4e99-b4eb-884d9569b32c: Images # Images
     ad732cb8-cee3-4540-b1bd-fba897dc6950: Description # Description
+    ae1295f7-b872-4504-a49e-c4aa321c2754: Skills # Skills
     b0267bf7-57eb-4bd4-bd7f-931b6895610a: 'Public Schema' # Public Schema
     be3e72bb-38ca-4f58-bd17-f2275ed86445: Homepage # Homepage
     c1760756-8587-4691-84da-ff9231459601: Components # Components
+    d26c94f9-a15f-4039-b1f3-da9423618ca7: Skills # Skills
     e0cb04d8-feb1-4796-9718-35b761d9a358: Copy # Copy
     ea6cc2b9-0fba-4314-ac10-4f4b7e537ac6: Homepage # Homepage
     ed56de3a-1e36-4459-b228-22517e1a009d: WYSIWYG # WYSIWYG
