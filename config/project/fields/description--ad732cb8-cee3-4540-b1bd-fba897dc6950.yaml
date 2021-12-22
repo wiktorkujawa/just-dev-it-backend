@@ -1,0 +1,19 @@
+columnSuffix: yqqwvopw
+contentColumnType: text
+fieldGroup: 8d9a46d2-7f5e-4725-a2dc-e5f5af099310 # Project
+handle: description
+instructions: ''
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

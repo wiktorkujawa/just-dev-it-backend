@@ -27,6 +27,51 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: 7d5897b2-31be-4bd7-971e-ea51ce238763 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 05481ee7-1e71-427f-874c-e279aee6b8c1 # Media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 200e32f6-33c3-40a9-87c2-077f3dc4d240 # Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ad732cb8-cee3-4540-b1bd-fba897dc6950 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 396cb4b4-2321-4fd1-b4b1-459014b4e489 # MediaLink
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 1551e627-e199-4bf3-8240-08277ea39c50 # Project
             instructions: null
             label: null
