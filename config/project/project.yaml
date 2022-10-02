@@ -1,4 +1,4 @@
-dateModified: 1640135667
+dateModified: 1664670548
 email:
   fromEmail: wiktorkujawa1993@gmail.com
   fromName: 'Just Dev It Backend'
@@ -57,7 +57,7 @@ system:
   edition: pro
   live: true
   name: 'Just Dev It Backend'
-  schemaVersion: 3.7.8
+  schemaVersion: 3.7.33
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
